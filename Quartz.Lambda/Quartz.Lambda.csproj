@@ -2,7 +2,7 @@
   <PropertyGroup>
       <TargetFramework>netstandard2.0</TargetFramework>
       <PackageId>Quartz.Lambda</PackageId>
-      <Version>1.0.3</Version>
+      <Version>1.0.4</Version>
       <Authors>Ilya Gusev</Authors>
       <PackageLicenseUrl>https://raw.githubusercontent.com/midianok/Quartz.Lambda/master/LICENSE</PackageLicenseUrl>
       <LangVersion>6</LangVersion>

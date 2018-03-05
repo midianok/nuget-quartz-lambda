@@ -32,7 +32,7 @@ namespace Quartz.Lambda
         /// Schedule action with delay and repeat interval.
         /// </summary>
         /// <param name="action">Action to schedule</param>
-        /// <param name="delay">Action to schedule</param>
+        /// <param name="delay">Dealy in secconds</param>
         /// <param name="interval">Execution interval in seconds</param>
         /// <returns></returns>
         public static Task<DateTimeOffset> ScheduleJob(this IScheduler scheduler, Action action, int delay, int interval) =>
