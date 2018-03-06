@@ -1,17 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-      <TargetFramework>netstandard2.0</TargetFramework>
-      <PackageId>Quartz.Lambda</PackageId>
-      <Version>1.0.4</Version>
-      <Authors>Ilya Gusev</Authors>
-      <PackageLicenseUrl>https://raw.githubusercontent.com/midianok/Quartz.Lambda/master/LICENSE</PackageLicenseUrl>
-      <LangVersion>6</LangVersion>
-      <AssemblyTitle>Quartz.Lambda</AssemblyTitle>
-      <Description>Quartz extension which allows to schedule jobs with lambda syntax.</Description>
-      <PackageTags>quartz;lambda;scheduler</PackageTags>
-      <PackageProjectUrl>https://github.com/midianok/Quartz.Lambda</PackageProjectUrl>
-      <Title>Quartz.Lambda</Title>
-      <Summary>Quartz extension which allows to schedule jobs with lambda syntax.</Summary>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Quartz.Lambda</PackageId>
+    <Version>1.0.5</Version>
+    <Authors>Ilya Gusev</Authors>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/midianok/Quartz.Lambda/master/LICENSE</PackageLicenseUrl>
+    <LangVersion>6</LangVersion>
+    <AssemblyTitle>Quartz.Lambda</AssemblyTitle>
+    <Description>Quartz extension which allows to schedule jobs with lambda syntax.</Description>
+    <PackageTags>quartz;lambda;scheduler</PackageTags>
+    <PackageProjectUrl>https://github.com/midianok/Quartz.Lambda</PackageProjectUrl>
+    <Title>Quartz.Lambda</Title>
+    <Summary>Quartz extension which allows to schedule jobs with lambda syntax.</Summary>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DocumentationFile>bin\Release\netstandard2.0\Quartz.Lambda.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Quartz" Version="3.0.0" />
